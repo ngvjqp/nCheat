@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">nCheat</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="quimica">Química</string>
+    <string name="fisica">Física</string>
+    <string name="matematica">Matemática</string>
+    <string name="outros">Outros</string>
+
+    <!--Matematica-->
+    <string name="delta">Delta(Baskhara)</string>
+    
+    <!-- Variaveis em geral-->
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    
+    <!-- Outros em geral -->
+    <string name="resultado">Resultado:</string>
+    <string name="calcular">Calcular!</string>
+    <string name="nulol">nulol</string>
+</resources>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btMat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/matematica" />
+
+    <Button
+        android:id="@+id/btQmq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quimica" />
+
+    <Button
+        android:id="@+id/btFsc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fisica" />
+
+    <Button
+        android:id="@+id/btOutros"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/outros" />
+
+</LinearLayout>
