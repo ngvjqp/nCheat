@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import com.ngvj10.ncheat.matematica.mainMatematica;
+
 public class MainActivity extends Activity implements OnClickListener {
 
 	Button btMat;
@@ -37,10 +39,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		return true;
 	}
 
-	@Override
 	public void onClick(View v) {
 		if (btMat.getId() == ((Button) v).getId()) {
-			startActivity(new Intent(this, matematica.class));
+			startActivity(new Intent(this, mainMatematica.class));
 		}
 		if (btQmq.getId() == ((Button) v).getId()) {
 

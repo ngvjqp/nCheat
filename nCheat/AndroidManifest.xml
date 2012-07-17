@@ -11,6 +11,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+    
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main" >
@@ -20,9 +21,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".matematica"
+            android:name=".matematica.deltaBaskhara"
             android:label="@string/title_activity_main" />
+        
+        <activity
+            android:name=".matematica.mainMatematica"
+            android:label="@string/title_activity_main" />
+          <activity
+            android:name=".matematica.Baskhara"
+            android:label="@string/title_activity_main" />
+    
     </application>
 
 </manifest>

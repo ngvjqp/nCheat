@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/baskharaNome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/baskhara" />
+
+    <EditText
+        android:id="@+id/aBaskhara"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:text="@string/a" />
+
+    <EditText
+        android:id="@+id/bBaskhara"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="@string/b" />
+
+    <EditText
+        android:id="@+id/deltaBaskhara"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="@string/delta" />
+
+    <TextView
+        android:id="@+id/resultadoBaskhara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/calculaBaskhara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular" />
+
+</LinearLayout>

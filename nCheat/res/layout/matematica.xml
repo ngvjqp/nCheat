@@ -1,92 +1,22 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/RelativeLayout1"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="18dp"
-        android:layout_marginTop="17dp"
-        android:text="@string/delta" />
-
-    <EditText
-        android:id="@+id/aDelta"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="20dp"
-        android:layout_toLeftOf="@+id/textView2"
-        android:ems="10"
-        android:inputType="number" />
-
-    <EditText
-        android:id="@+id/bDelta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/aDelta"
-        android:ems="10"
-        android:inputType="number" />
-
-    <EditText
-        android:id="@+id/cDelta"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignRight="@+id/bDelta"
-        android:layout_below="@+id/bDelta"
-        android:ems="10"
-        android:inputType="number" />
-
-    <TextView
-        android:id="@+id/resultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/cDelta"
-        android:text="@string/resultado"
-        android:textSize="30dp" />
-
     <Button
-        android:id="@+id/calculaDelta"
-        android:layout_width="wrap_content"
+        android:id="@+id/delta_baskhara"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/resultado"
-        android:text="@string/calcular" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:text="@string/delta"
+        android:textSize="40sp" />
+    
+    <Button
+        android:id="@+id/baskhara"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/aDelta"
-        android:layout_alignBottom="@+id/aDelta"
-        android:layout_alignRight="@+id/textView2"
-        android:text="@string/a" />
+        android:text="@string/baskhara"
+        android:textSize="40sp" />
+    
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/bDelta"
-        android:layout_alignBottom="@+id/bDelta"
-        android:layout_marginLeft="18dp"
-        android:layout_toRightOf="@+id/bDelta"
-        android:text="@string/b" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/cDelta"
-        android:layout_alignBottom="@+id/cDelta"
-        android:layout_alignRight="@+id/textView2"
-        android:text="@string/c" />
-
-</RelativeLayout>
+</LinearLayout>
