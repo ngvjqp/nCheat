@@ -11,15 +11,18 @@
     <!--Matematica-->
     <string name="deltaB">Delta(Baskhara)</string>
     <string name="baskhara">Baskhara</string>
+    <string name="formGPA">Form. Geral da P.A.</string>
 
     <!-- Variaveis em geral-->
     <string name="a">a</string>
     <string name="b">b</string>
     <string name="c">c</string>
+    <string name="n">n</string>
+    <string name="an">an</string>
+    <string name="a1">a1</string>
     <string name="delta">Delta</string>
     
     <!-- Outros em geral -->
     <string name="resultado">Resultado:</string>
     <string name="calcular">Calcular!</string>
-    <string name="nulol">nulol</string>
 </resources>

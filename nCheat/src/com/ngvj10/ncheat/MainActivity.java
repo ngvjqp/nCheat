@@ -2,6 +2,7 @@ package com.ngvj10.ncheat;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -16,6 +17,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	Button btQmq;
 	Button btFsc;
 	Button btOutros;
+	View view;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,12 @@ public class MainActivity extends Activity implements OnClickListener {
 		btQmq.setOnClickListener((android.view.View.OnClickListener) this);
 		btFsc.setOnClickListener((android.view.View.OnClickListener) this);
 		btOutros.setOnClickListener((android.view.View.OnClickListener) this);
+
+		int r = (int) (Math.random() * 255);
+		int g = (int) (Math.random() * 255);
+		int b = (int) (Math.random() * 255);
+		view = (View) findViewById(R.id.xmlMain);
+		view.setBackgroundColor(Color.rgb(r, g, b));
 	}
 
 	@Override

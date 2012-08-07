@@ -1,6 +1,7 @@
 package com.ngvj10.ncheat.matematica;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -18,6 +19,7 @@ public class Baskhara extends Activity implements OnClickListener {
 	EditText Delta;
 	TextView resultado;
 	Button calcularB;
+	View view;
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -34,6 +36,11 @@ public class Baskhara extends Activity implements OnClickListener {
 		Delta.setOnClickListener((android.view.View.OnClickListener) this);
 		calcularB.setOnClickListener((android.view.View.OnClickListener) this);
 
+		int r = (int) (Math.random() * 255);
+		int g = (int) (Math.random() * 255);
+		int b = (int) (Math.random() * 255);
+		view = (View) findViewById(R.id.xmlBas);
+		view.setBackgroundColor(Color.rgb(r, g, b));
 	}
 
 	public boolean onCreateOptionsMenu(Menu menu) {

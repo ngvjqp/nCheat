@@ -1,56 +1,57 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/xmlBas"
+    android:id="@+id/xmlFGPA"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/LinearLayout1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
 
         <TextView
-            android:id="@+id/baskharaNome"
+            android:id="@+id/formGPA"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="17dp"
-            android:text="@string/baskhara" />
+            android:text="@string/formGPA" />
 
         <EditText
-            android:id="@+id/aBaskhara"
+            android:id="@+id/a1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:inputType="numberSigned|numberDecimal"
             android:selectAllOnFocus="true"
-            android:text="@string/a" />
+            android:text="@string/a1" />
 
         <EditText
-            android:id="@+id/bBaskhara"
+            android:id="@+id/an"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:inputType="numberSigned|numberDecimal"
             android:selectAllOnFocus="true"
-            android:text="@string/b" />
+            android:text="@string/an" />
 
         <EditText
-            android:id="@+id/deltaBaskhara"
+            android:id="@+id/n"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:inputType="numberSigned|numberDecimal"
             android:selectAllOnFocus="true"
-            android:text="@string/delta" />
+            android:text="@string/n" />
 
         <TextView
-            android:id="@+id/resultadoBaskhara"
+            android:id="@+id/resultadoFGPA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/resultado"
             android:textSize="30dp" />
 
         <Button
-            android:id="@+id/calculaBaskhara"
+            android:id="@+id/calculaFGPA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/calcular" />

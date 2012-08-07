@@ -2,6 +2,7 @@ package com.ngvj10.ncheat.matematica;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -14,6 +15,8 @@ public class mainMatematica extends Activity implements OnClickListener {
 
 	Button deltaBaskhara;
 	Button Baskhara;
+	Button formGPA;
+	View view;
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -21,11 +24,18 @@ public class mainMatematica extends Activity implements OnClickListener {
 
 		deltaBaskhara = (Button) findViewById(R.id.delta_baskhara);
 		Baskhara = (Button) findViewById(R.id.baskhara);
+		formGPA = (Button) findViewById(R.id.formGPAlayoutMtm);
 
 		deltaBaskhara
 				.setOnClickListener((android.view.View.OnClickListener) this);
 		Baskhara.setOnClickListener((android.view.View.OnClickListener) this);
+		formGPA.setOnClickListener((android.view.View.OnClickListener) this);
 
+		int r = (int) (Math.random() * 255);
+		int g = (int) (Math.random() * 255);
+		int b = (int) (Math.random() * 255);
+		view = (View) findViewById(R.id.xmlmtm);
+		view.setBackgroundColor(Color.rgb(r, g, b));
 	}
 
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -40,6 +50,9 @@ public class mainMatematica extends Activity implements OnClickListener {
 		}
 		if (Baskhara.getId() == ((Button) v).getId()) {
 			startActivity(new Intent(this, Baskhara.class));
+		}
+		if (formGPA.getId() == ((Button) v).getId()) {
+			startActivity(new Intent(this, formGPA.class));
 		}
 	}
 
