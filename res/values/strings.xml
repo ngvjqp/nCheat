@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">nCheat</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">nCheat</string>
+    <string name="quimica">Química</string>
+    <string name="fisica">Física</string>
+    <string name="matematica">Matemática</string>
+    <string name="outros">Outros</string>
+
+    <!-- Matematica -->
+    <string name="deltaB">Delta(Baskhara)</string>
+    <string name="baskhara">Baskhara</string>
+    <string name="formGPA">Form. Geral da P.A.</string>
+    <string name="areas">Areas</string>
+    	<!-- Areas -->
+		<string name="areaQuad">Area do Retângulo</string>
+    	<string name="areaTri">Area do Triangulo</string>
+    	<string name="areaCirc">Area do Circulo</string>
+
+
+    <!-- Variaveis em geral -->
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="h">h</string>
+    <string name="n">n</string>
+    <string name="an">an</string>
+    <string name="a1">a1</string>
+    <string name="delta">Delta</string>
+
+    <!-- Outros em geral -->
+    <string name="resultado">Resultado:</string>
+    <string name="calcular">Calcular!</string>
+
+</resources>
