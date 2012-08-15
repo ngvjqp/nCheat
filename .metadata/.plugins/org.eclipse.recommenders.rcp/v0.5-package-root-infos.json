@@ -1,0 +1,210 @@
+[
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "27c24d26e4c5d57976e6926367985548678e913c",
+    "jarFileModificationDate": "2012-08-09T10:53:48.184-03:00",
+    "location": "C:\\Users\\Nelito\\workspace\\NCalc\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ac870f9fcdf0068bda8d94ee04274f7b631b0528",
+    "jarFileModificationDate": "2012-02-28T20:30:20.355-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "433222199dfb1cbbc39b322eb4906dd953d385bd",
+    "jarFileModificationDate": "2012-02-28T20:30:11.584-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "10585215f79fb361342cfdcea749dad586f34414",
+    "jarFileModificationDate": "2012-02-28T20:30:20.398-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b50d42b32e1d8a6c2d5f19a846474d5e2199c68e",
+    "jarFileModificationDate": "2012-07-15T21:42:05.312-03:00",
+    "location": "C:\\Users\\Nelito\\AppData\\Local\\Android\\android-sdk\\platforms\\android-10\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "923a6b1cc2fe4264d165ddc53803e981b4444050",
+    "jarFileModificationDate": "2012-02-28T20:30:10.510-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f56383db77ae9502e6ca617e57d55ee73d631c46",
+    "jarFileModificationDate": "2012-02-28T20:30:10.516-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31853a3c486908d5d1b68c3be8cf31c23f86bdf",
+    "jarFileModificationDate": "2012-02-28T20:30:12.289-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2567fcef5bb2ca93e22a9df4f2dbf895daeb3e33",
+    "jarFileModificationDate": "2012-07-15T21:43:55.457-03:00",
+    "location": "C:\\Users\\Nelito\\AppData\\Local\\Android\\android-sdk\\platforms\\android-8\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "99205532ad01ab8e5e50a8773b1c8761d5870786",
+    "jarFileModificationDate": "2012-02-28T20:30:11.581-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7729be0269bf0025fd00f7ebf1427dd59e5440e2",
+    "jarFileModificationDate": "2012-02-28T20:30:17.871-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7c88966400c457b10c96259d13a27e407da16b48",
+    "jarFileModificationDate": "2012-02-28T20:30:17.731-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3ed1ba37a0fae9d24d0755973e4fabb7bdbabff2",
+    "jarFileModificationDate": "2012-02-28T20:30:12.553-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a717cf29020f95db12fd1d37005353f92180c674",
+    "jarFileModificationDate": "2012-02-28T20:30:11.579-03:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "27c24d26e4c5d57976e6926367985548678e913c",
+    "jarFileModificationDate": "2012-07-27T16:16:48.707-03:00",
+    "location": "C:\\Users\\Nelito\\workspace\\sfsd\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "annotations",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "49b1890d5f070b06990b1ea81fd446bba6e0e96d",
+    "jarFileModificationDate": "2012-06-24T17:35:04-03:00",
+    "location": "C:\\Users\\Nelito\\AppData\\Local\\Android\\android-sdk\\tools\\support\\annotations.jar",
+    "javaRuntime": false
+  }
+]

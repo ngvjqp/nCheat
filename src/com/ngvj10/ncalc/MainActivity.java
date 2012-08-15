@@ -14,7 +14,7 @@ import com.ngvj10.ncalc.matematica.mainMatematica;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-	Button btMat;
+	ImageView btMat;
 	ImageView btQmq;
 	Button btFsc;
 	Button btOutros;
@@ -25,7 +25,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		btMat = (Button) findViewById(R.id.btMat);
+		btMat = (ImageView) findViewById(R.id.btMat);
 		btQmq = (ImageView) findViewById(R.id.btQmq);
 		btFsc = (Button) findViewById(R.id.btFsc);
 		btOutros = (Button) findViewById(R.id.btOutros);
@@ -49,17 +49,29 @@ public class MainActivity extends Activity implements OnClickListener {
 	}
 
 	public void onClick(View v) {
-		if (btMat.getId() == ((Button) v).getId()) {
+		if (btMat.getId() == ((ImageView) v).getId()) {
 			startActivity(new Intent(this, mainMatematica.class));
 		}
-		if (btQmq.getId() == ((Button) v).getId()) {
+		if (btQmq.getId() == ((ImageView) v).getId()) {
 
 		}
-		if (btFsc.getId() == ((Button) v).getId()) {
+		
+		try {
+			if (btFsc.getId() == ((Button) v).getId()) {
 
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		if (btOutros.getId() == ((Button) v).getId()) {
+		
+		try {
+			if (btOutros.getId() == ((Button) v).getId()) {
 
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 
 	}

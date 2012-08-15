@@ -1,0 +1,12 @@
+{
+  "C:\\Users\\Nelito\\AppData\\Local\\Android\\android-sdk\\platforms\\android-8\\android.jar": {
+    "location": "C:\\Users\\Nelito\\AppData\\Local\\Android\\android-sdk\\platforms\\android-8\\android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\Nelito\\AppData\\Local\\Android\\android-sdk\\platforms\\android-8\\android.jar\u0027. Neither fingerprint \u00272567fcef5bb2ca93e22a9df4f2dbf895daeb3e33\u0027 nor symbolic name \u0027android\u0027 are known."
+  },
+  "C:\\Users\\Nelito\\AppData\\Local\\Android\\android-sdk\\platforms\\android-10\\android.jar": {
+    "location": "C:\\Users\\Nelito\\AppData\\Local\\Android\\android-sdk\\platforms\\android-10\\android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\Nelito\\AppData\\Local\\Android\\android-sdk\\platforms\\android-10\\android.jar\u0027. Neither fingerprint \u0027b50d42b32e1d8a6c2d5f19a846474d5e2199c68e\u0027 nor symbolic name \u0027android\u0027 are known."
+  }
+}

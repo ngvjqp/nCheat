@@ -1,0 +1,51 @@
+package com.example.sfsd;
+
+import android.app.Activity;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.TextView;
+
+public class MainActivity extends Activity implements OnClickListener {
+
+	View view;
+	TextView troca1;
+	TextView troca2;
+	TextView troca3;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		view = (View) findViewById(R.id.layout);
+		troca1 = (TextView) findViewById(R.id.troca1);
+		troca2 = (TextView) findViewById(R.id.troca2);
+		troca3 = (TextView) findViewById(R.id.troca3);
+		this.troca1
+				.setOnClickListener((android.view.View.OnClickListener) this);
+		this.troca2
+				.setOnClickListener((android.view.View.OnClickListener) this);
+		this.troca3
+				.setOnClickListener((android.view.View.OnClickListener) this);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+	public void onClick(View v) {
+		if (troca1.getId() == ((View) v).getId()) {
+			view.setBackgroundColor(Color.argb(255, 0, 0, 0));
+		}
+		if (troca2.getId() == ((View) v).getId()) {
+			view.setBackgroundColor(Color.argb(255, 255, 255, 255));
+		}
+		if (troca3.getId() == ((View) v).getId()) {
+			view.setBackgroundResource(R.drawable.flash);
+		}
+	}
+}

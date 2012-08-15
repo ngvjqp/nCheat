@@ -1,0 +1,233 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>SENAI/SC - Servi&ccedil;o Nacional de Aprendizagem Industrial</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 2.0  (Win32)">
+	<META NAME="AUTHOR" CONTENT=". .">
+	<META NAME="CREATED" CONTENT="20060223;13241582">
+	<META NAME="CHANGED" CONTENT="20060224;14321321">
+        <!--<SCRIPT Language="JavaScript">-->
+	<script type="text/javascript">
+
+var BrowserDetect = {
+        init: function () {
+                this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+                this.version = this.searchVersion(navigator.userAgent)
+                        || this.searchVersion(navigator.appVersion)
+                        || "an unknown version";
+                this.OS = this.searchString(this.dataOS) || "an unknown OS";
+        },
+        searchString: function (data) {
+                for (var i=0;i<data.length;i++) {
+                        var dataString = data[i].string;
+                        var dataProp = data[i].prop;
+                        this.versionSearchString = data[i].versionSearch || data[i].identity;
+                        if (dataString) {
+                                if (dataString.indexOf(data[i].subString) != -1)
+                                        return data[i].identity;
+                        }
+                        else if (dataProp)
+                                return data[i].identity;
+                }
+        },
+        searchVersion: function (dataString) {
+                var index = dataString.indexOf(this.versionSearchString);
+                if (index == -1) return;
+                return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+        },
+        dataBrowser: [
+                {
+                        string: navigator.userAgent,
+                        subString: "Chrome",
+                        identity: "Chrome"
+                },
+                {       string: navigator.userAgent,
+                        subString: "OmniWeb",
+                        versionSearch: "OmniWeb"
+    		},
+                {
+                        string: navigator.vendor,
+                        subString: "Apple",
+                        identity: "Safari",
+                        versionSearch: "Version"
+                },
+                {
+                        prop: window.opera,
+                        identity: "Opera"
+                },
+                {
+                        string: navigator.vendor,
+                        subString: "iCab",
+                        identity: "iCab"
+                },
+                {
+                        string: navigator.vendor,
+                        subString: "KDE",
+                        identity: "Konqueror"
+                },
+                {
+                        string: navigator.userAgent,
+                        subString: "Firefox",
+                        identity: "Firefox"
+                },
+                {
+                        string: navigator.vendor,
+                        subString: "Camino",
+                        identity: "Camino"
+                },
+                {       // for newer Netscapes (6+)
+                        string: navigator.userAgent,
+                        subString: "Netscape",
+                        identity: "Netscape"
+                },
+                {
+                        string: navigator.userAgent,
+                        subString: "MSIE",
+                        identity: "Explorer",
+                        versionSearch: "MSIE"
+                },
+                {
+                        string: navigator.userAgent,
+                        subString: "Gecko",
+                        identity: "Mozilla",
+                        versionSearch: "rv"
+                },
+                {       // for older Netscapes (4-)
+                        string: navigator.userAgent,
+                        subString: "Mozilla",
+                        identity: "Netscape",
+                        versionSearch: "Mozilla"
+                }
+        ],
+        dataOS : [
+                {
+                        string: navigator.platform,
+                        subString: "Win",
+                        identity: "Windows"
+                },
+                {
+                        string: navigator.platform,
+                        subString: "Mac",
+                        identity: "Mac"
+                },
+                {
+                           string: navigator.userAgent,
+                           subString: "iPhone",
+                           identity: "iPhone/iPod"
+            	},
+                {
+                        string: navigator.platform,
+                        subString: "Linux",
+                        identity: "Linux"
+                }
+        ]
+
+};
+BrowserDetect.init();
+
+if (navigator.appName == 'Netscape') {
+	window.location = './proxyff.html';
+}
+if (navigator.appName == 'Microsoft Internet Explorer') {
+  if (BrowserDetect.version == 6) {
+	window.location = './proxyie6.html';
+  }
+  else if (BrowserDetect.version == 7) {
+	window.location = './proxyie7.html';
+  } 
+}
+
+</SCRIPT>
+</HEAD>
+<BODY LANG="pt-BR" DIR="LTR">
+<P><IMG SRC="barra.PNG" NAME="figura2" ALIGN=LEFT WIDTH=1000 HEIGHT=63 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Prezado
+usu&aacute;rio,</FONT></FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=4>para
+acesso &agrave; Internet &eacute; necess&aacute;rio que voc&ecirc;
+configure o proxy do seu navegador.</FONT></FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=4>Selecione
+o seu navegador:</FONT></FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT SIZE=4><FONT FACE="Arial, sans-serif"><A HREF="#figura7|graphic">Internet
+Explorer </A>- <A HREF="#figura1|graphic">Firefox</A></FONT></FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="Arial, sans-serif"><FONT SIZE=3>Caso
+tenha problemas por favor entre em contato com o t&eacute;cnico da
+unidade.</FONT></FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><A NAME="figura7|graphic"></A><IMG SRC="blurulr6.gif" NAME="figura7" ALIGN=LEFT WIDTH=979 HEIGHT=5 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-top: 0.42cm; page-break-after: avoid"><FONT FACE="Albany, sans-serif"><FONT SIZE=4>Para
+configurar seu navegador siga as instru&ccedil;&otilde;es abaixo:</FONT></FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<UL>
+	<LI><P><FONT FACE="Arial, sans-serif">Clique em <B><I>ferramentas</I>
+	</B>e em seguida <B><I>op&ccedil;&otilde;es da Internet</I></B></FONT></P>
+</UL>
+<P ALIGN=CENTER><IMG SRC="ie1.PNG" NAME="figura8" ALIGN=CENTER WIDTH=559 HEIGHT=176 BORDER=0><BR CLEAR=CENTER><BR><BR>
+</P>
+<UL>
+	<LI><P STYLE="font-style: normal"><FONT FACE="Arial, sans-serif">Clique
+	na aba <B><I>Conex&otilde;es </I></B>e logo abaixo em <I><B>Configura&ccedil;&otilde;es
+	da LAN</B>.</I></FONT></P>
+</UL>
+<P ALIGN=CENTER><IMG SRC="ie2.PNG" NAME="figura9" ALIGN=CENTER WIDTH=406 HEIGHT=470 BORDER=0><BR CLEAR=CENTER><BR><BR>
+</P>
+<UL>
+	<LI><P><FONT FACE="Arial, sans-serif">Desmarque qualquer op&ccedil;&atilde;o
+	j&aacute; selecionada, marque a op&ccedil;&atilde;o <B><I>Detectar
+	automaticamente as configura&ccedil;&otilde;es</I></B> e clique em
+	<B><I>OK.</I></B></FONT></P>
+</UL>
+<P ALIGN=CENTER><IMG SRC="ie3.PNG" NAME="figura10" ALIGN=CENTER WIDTH=383 HEIGHT=332 BORDER=0><BR CLEAR=CENTER><BR><BR>
+</P>
+<UL>
+	<LI><P><FONT FACE="Arial, sans-serif"><B>Feche a janela de seu
+	navegador e abra novamente</B></FONT></P>
+</UL>
+<P ALIGN=CENTER><A NAME="figura1|graphic"></A><IMG SRC="blurulr6.gif" NAME="figura1" ALIGN=BOTTOM WIDTH=986 HEIGHT=6 BORDER=0></P>
+<P ALIGN=CENTER STYLE="margin-top: 0.42cm; page-break-after: avoid"><FONT FACE="Albany, sans-serif"><FONT SIZE=4>Para
+configurar seu navegador siga as instru&ccedil;&otilde;es abaixo:</FONT></FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<UL>
+	<LI><P ALIGN=LEFT><FONT FACE="Arial, sans-serif"><FONT SIZE=3>Clique
+	em <I><B>Ferramentas</B> </I>e em seguida clique em <B><I>Op&ccedil;&otilde;es.</I></B></FONT></FONT></P>
+</UL>
+<P ALIGN=CENTER><IMG SRC="firefox1.PNG" NAME="figura3" ALIGN=CENTER WIDTH=536 HEIGHT=306 BORDER=0><BR CLEAR=CENTER><BR><BR>
+</P>
+<UL>
+	<LI><P ALIGN=LEFT><FONT FACE="Arial, sans-serif"><FONT SIZE=3>Clique
+	na op&ccedil;&atilde;o <B><I>Geral</I> </B>e em seguida clique em
+	<B><I>Configurar Conex&otilde;es.</I></B></FONT></FONT></P>
+</UL>
+<P ALIGN=CENTER><IMG SRC="firefox2.PNG" NAME="figura4" ALIGN=CENTER WIDTH=470 HEIGHT=419 BORDER=0><BR CLEAR=CENTER><BR><BR>
+</P>
+<UL>
+	<LI><P><FONT FACE="Arial, sans-serif">Na pr&oacute;xima janela
+	desmarque qualquer op&ccedil;&atilde;o j&aacute; selecionada, marque
+	a op&ccedil;&atilde;o <B><I>Autodetectar as configura&ccedil;&otilde;es
+	de proxy para esta rede </I></B>e clique <B><I>OK.</I></B></FONT></P>
+</UL>
+<P ALIGN=CENTER><IMG SRC="firefox3.PNG" NAME="figura5" ALIGN=CENTER WIDTH=414 HEIGHT=437 BORDER=0><BR CLEAR=CENTER><BR><BR>
+</P>
+<UL>
+	<LI><P><FONT FACE="Arial, sans-serif"><B>Feche a janela de seu
+	navegador e abra novamente</B></FONT></P>
+</UL>
+<P><IMG SRC="blurulr6.gif" NAME="figura6" ALIGN=BOTTOM WIDTH=983 HEIGHT=5 BORDER=0></P>
+</BODY>
+</HTML>

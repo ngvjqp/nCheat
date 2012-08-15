@@ -1,61 +1,56 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/xmlMain"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="#000000" >
+    android:layout_height="fill_parent" >
 
-    <TableLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/TableLayout1"
-        android:layout_width="match_parent"
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content" >
 
-        <TableRow
-            android:id="@+id/tableRow1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="fill_parent">
 
-            <Button
+            <ImageView
                 android:id="@+id/btMat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="10dp"
-                                android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:text="@string/matematica" />
+                android:contentDescription="@string/matematica"
+                android:src="@drawable/logomtm" />
 
             <ImageView
-                android:src="@drawable/logoqmq"
                 android:id="@+id/btQmq"
                 android:layout_width="wrap_content"
-                android:contentDescription="@string/quimica"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_gravity="right"
                 android:layout_marginRight="10dp"
-                android:text="@string/quimica" 
-                android:layout_marginTop="10dp"/>
-        </TableRow>
+                android:contentDescription="@string/quimica"
+                android:paddingTop="10dp"
+                android:src="@drawable/logoqmq" />
+        </LinearLayout>
+    </TableRow>
 
-        <Button
-            android:id="@+id/btFsc"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:text="@string/fisica" />
+    <LinearLayout>
+    </LinearLayout>
 
-        <Button
-            android:id="@+id/btOutros"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:text="@string/outros" />
-    </TableLayout>
+    <Button
+        android:id="@+id/btFsc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/fisica" />
 
-</ScrollView>
+    <Button
+        android:id="@+id/btOutros"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/outros" />
+
+</TableLayout>
