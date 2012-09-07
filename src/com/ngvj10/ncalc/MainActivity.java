@@ -2,12 +2,10 @@ package com.ngvj10.ncalc;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import com.ngvj10.ncalc.matematica.mainMatematica;
@@ -16,8 +14,8 @@ public class MainActivity extends Activity implements OnClickListener {
 
 	ImageView btMat;
 	ImageView btQmq;
-	Button btFsc;
-	Button btOutros;
+	ImageView btFsc;
+	ImageView btOutros;
 	View view;
 
 	@Override
@@ -27,19 +25,13 @@ public class MainActivity extends Activity implements OnClickListener {
 
 		btMat = (ImageView) findViewById(R.id.btMat);
 		btQmq = (ImageView) findViewById(R.id.btQmq);
-		btFsc = (Button) findViewById(R.id.btFsc);
-		btOutros = (Button) findViewById(R.id.btOutros);
+		btFsc = (ImageView) findViewById(R.id.btFsc);
+		btOutros = (ImageView) findViewById(R.id.btOtrs);
 
 		btMat.setOnClickListener((android.view.View.OnClickListener) this);
 		btQmq.setOnClickListener((android.view.View.OnClickListener) this);
 		btFsc.setOnClickListener((android.view.View.OnClickListener) this);
 		btOutros.setOnClickListener((android.view.View.OnClickListener) this);
-
-		int r = (int) (Math.random() * 255);
-		int g = (int) (Math.random() * 255);
-		int b = (int) (Math.random() * 255);
-		view = (View) findViewById(R.id.xmlMain);
-		view.setBackgroundColor(Color.rgb(r, g, b));
 	}
 
 	@Override
@@ -55,24 +47,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		if (btQmq.getId() == ((ImageView) v).getId()) {
 
 		}
-		
-		try {
-			if (btFsc.getId() == ((Button) v).getId()) {
+		if (btFsc.getId() == ((ImageView) v).getId()) {
 
-			}
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
-		
-		try {
-			if (btOutros.getId() == ((Button) v).getId()) {
-
-			}
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
 	}
 }
